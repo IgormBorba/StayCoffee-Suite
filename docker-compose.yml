@@ -1,0 +1,41 @@
+version: "3"
+services:
+  nginx:
+    depends_on:
+      - api
+      - client
+    restart: always
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./nginx
+    ports:
+      - "3050:80"
+      
+  api:
+    build:
+      dockerfile: Dockerfile
+      context: "./backend" # Aponta para a pasta do back-end
+    environment:
+      - PORT=3000
+      - BASE_URL=http://host.docker.internal:3000
+      - JWT_SECRET_KEY=yIycAPlegcyU5N716iAaMmcIM4ITvjYqsuxQLGiL+Fw=
+      - CORS_ALLOWED_ORIGIN=http://host.docker.internal:5173
+      - DATABASE_HOST=host.docker.internal
+      - DATABASE_NAME=db_test
+      - DATABASE_USER=postgres
+      - DATABASE_PASSWORD=06082011
+      - DATABASE_PORT=5433
+    volumes:
+      - /app/node_modules
+      - ./backend:/app # Aponta para a pasta do back-end
+  client:
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - REACT_APP_BASE_URL=http://localhost:3050/api/
+    build:
+      dockerfile: Dockerfile
+      context: ./frontend # Aponta para a pasta do front-end
+    volumes:
+      - /app/node_modules
+      - ./frontend:/app # Aponta para a pasta do front-end

@@ -1,0 +1,46 @@
+{
+  "name": "StayCoffee-Suite-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "npm run eslint && npm run stylelint",
+    "preview": "vite preview",
+    "stylelint": "stylelint \"**/*.{css,scss,less}\"",
+    "stylelint:fix": "stylelint **/*.{css,scss,less} --fix",
+    "eslint": "eslint --fix --ext  .js,.jsx,.ts,.tsx ./",
+    "prettier": "prettier **/* --write"
+  },
+  "dependencies": {
+    "@ant-design/pro-components": "^2.6.10",
+    "@hookform/resolvers": "^3.1.0",
+    "@iceworks/spec": "^1.6.0",
+    "antd": "^5.6.3",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-paginate": "^8.2.0",
+    "react-router-dom": "^6.15.0",
+    "styled-components": "^6.0.0-rc.3",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^7.22.0",
+    "prettier": "^2.1.0",
+    "stylelint": "^14.0.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8"
+  }
+}

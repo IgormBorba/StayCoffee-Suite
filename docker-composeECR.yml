@@ -1,0 +1,29 @@
+version: '3'
+services:
+  nginx:
+    depends_on:
+      - api
+      - client
+    restart: always
+    image: [URI_DA_IMAGEM_NGINX] # Referência à imagem no ECR
+    ports:
+      - "3050:80"
+  api:
+    image: [URI_DA_IMAGEM_API] # Referência à imagem no ECR
+    volumes:
+      - /app/node_modules
+      - ./backend:/app # Aponta para a pasta do back-end
+  client:
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    image: [URI_DA_IMAGEM_CLIENT] # Referência à imagem no ECR
+    volumes:
+      - /app/node_modules
+      - ./frontend:/app # Aponta para a pasta do front-end
+
+# (Opcional) Configurações de volumes, se você precisar montar diretórios do host nos contêineres
+# volumes:
+#   # Exemplo de definição de volume
+#   myvolume:
+#     driver: local

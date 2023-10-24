@@ -1,0 +1,26 @@
+# Diretório de node_modules (será instalado pelo npm install)
+node_modules
+
+# Diretórios e arquivos de teste
+__tests__
+*.test.*
+*.spec.*
+
+# Arquivos de configuração do editor
+.editorconfig
+.vscode
+.idea
+
+# Arquivos de log e relatório
+npm-debug.log
+yarn-error.log
+coverage
+
+# Outros arquivos e diretórios desnecessários
+.git
+README.md
+LICENSE
+Dockerfile
+.dockerignore
+.stylelintignore
+.stylelintrc.js

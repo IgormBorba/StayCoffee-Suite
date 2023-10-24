@@ -4,12 +4,12 @@
 
 Coffee Management System
 
-![Alt text](image.png)
+![Alt text](dashboard.png)
 ## Descrição
 
 O Sistema de Gestão de Café é uma aplicação desenvolvida para atender às necessidades de uma corretora no gerenciamento de informações relacionadas ao café. O sistema foi projetado para ser intuitivo, eficiente e fornecer uma experiência de usuário aprimorada.
 
-![Alt text](image-1.png)
+![Alt text](dashboard2.png)
 
 ## Tecnologias Utilizadas
 
