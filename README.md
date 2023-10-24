@@ -137,5 +137,3 @@ Antes de disponibilizar o sistema para uso, é realizada uma fase de testes rigo
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
-
-# StayCoffee-Suite
