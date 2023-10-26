@@ -13,7 +13,7 @@ O Sistema de Gestão de Café é uma aplicação desenvolvida para atender às n
 
 ## Tecnologias Utilizadas
 
-- **Front-end:** ReactTs, Taiwaind, MaterialUI
+- **Front-end:** ReactTs, Taiwaind, Ant-Design
 - **Back-end:** Node.js, Express.js, PostgreSQL, TypeORM, Swagger
 
 ## Funcionalidades
