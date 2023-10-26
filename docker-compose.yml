@@ -21,9 +21,9 @@ services:
       - JWT_SECRET_KEY=yIycAPlegcyU5N716iAaMmcIM4ITvjYqsuxQLGiL+Fw=
       - CORS_ALLOWED_ORIGIN=http://host.docker.internal:5173
       - DATABASE_HOST=host.docker.internal
-      - DATABASE_NAME=db_test
+      - DATABASE_NAME=db_name
       - DATABASE_USER=postgres
-      - DATABASE_PASSWORD=06082011
+      - DATABASE_PASSWORD=password
       - DATABASE_PORT=5433
     volumes:
       - /app/node_modules
