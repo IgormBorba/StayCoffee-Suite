@@ -134,7 +134,6 @@ Estou orgulhoso da equipe e da forma como trabalhamos juntos para alcançar noss
 
 Antes de disponibilizar o sistema para uso, é realizada uma fase de testes rigorosa para garantir que o software esteja livre de bugs e erros. Além disso, são implementadas práticas de garantia de qualidade, como revisões de código, testes de desempenho e testes de usabilidade, para garantir que o sistema atenda às expectativas dos usuários.
 
-
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
