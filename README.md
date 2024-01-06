@@ -1,13 +1,13 @@
 # StayCoffee Suite Fullstack APP
 
-# Sistema de Gestão de Café para Corretora
+# Sistema de Gestão de Hotelaria
 
-Coffee Management System
+Hotelaria Management System
 
 ![Alt text](images/dashboard.png)
 ## Descrição
 
-O Sistema de Gestão de Café é uma aplicação desenvolvida para atender às necessidades de uma corretora no gerenciamento de informações relacionadas ao café. O sistema foi projetado para ser intuitivo, eficiente e fornecer uma experiência de usuário aprimorada.
+O Sistema de Gestão de Hotelaria é uma aplicação desenvolvida para atender às necessidades de uma corretora no gerenciamento de informações relacionadas a rede de hoteis. O sistema foi projetado para ser intuitivo, eficiente e fornecer uma experiência de usuário aprimorada.
 
 ![Alt text](images/dashboard2.png)
 
@@ -18,14 +18,13 @@ O Sistema de Gestão de Café é uma aplicação desenvolvida para atender às n
 
 ## Funcionalidades
 
-- Cadastro e gerenciamento de informações sobre os tipos de café disponíveis para negociação.
-- Registro e acompanhamento de transações de compra e venda de café.
-- Geração de relatórios e análises sobre as transações realizadas.
-- Controle de estoque de café e atualização automática com base nas transações.
+- Registro de Quartos
+- Registro de Entradas de Vendas na Lanchonete
+- Balanço Geral
 
 ## Arquitetura
 
-No contexto da arquitetura cliente-servidor do sistema de gestão de café para corretora, o front-end e o back-end são componentes essenciais que desempenham papéis distintos.
+No contexto da arquitetura cliente-servidor do sistema de gestão, o front-end e o back-end são componentes essenciais que desempenham papéis distintos.
 
 No front-end, a interface do usuário é desenvolvida utilizando tecnologias como ReactTs, Taiwaind e MaterialUI. Para facilitar a implantação e o gerenciamento do front-end, é comum utilizar o Docker para criar uma imagem e definir uma Dockerfile.
 
@@ -33,11 +32,9 @@ Essa Dockerfile utiliza uma imagem base do Node.js, copia os arquivos do projeto
 
 No back-end, a lógica de negócio, o processamento das requisições e o acesso ao banco de dados são implementados utilizando tecnologias como Node.js, Express.js, PostgreSQL, TypeORM. Assim como no front-end, é possível utilizar o Docker para criar uma imagem e definir uma Dockerfile para o back-end.
 
-
-
 # Documentação da API
 
-A API do Sistema de Gestão de Café para Corretora é documentada utilizando o Swagger, uma ferramenta poderosa que permite descrever, visualizar e testar os endpoints da API de forma interativa. A documentação da API fornece informações detalhadas sobre os endpoints disponíveis, os parâmetros necessários, as respostas esperadas e exemplos de uso.
+A API do Sistema de Gestão documentada utilizando o Swagger, uma ferramenta poderosa que permite descrever, visualizar e testar os endpoints da API de forma interativa. A documentação da API fornece informações detalhadas sobre os endpoints disponíveis, os parâmetros necessários, as respostas esperadas e exemplos de uso.
 
 ## Acesso à Documentação
 
@@ -103,7 +100,7 @@ Os testes realizados no Sistema de Gestão de Café para Corretora apresentaram 
 
 ## Próximos Passos
 
-Com base nos resultados dos testes de qualidade, os próximos passos para o Sistema de Gestão de Café para Corretora são:
+Com base nos resultados dos testes de qualidade, os próximos passos para o Sistema de Gestão são:
 
 1. Realizar testes de desempenho para garantir que o sistema possa lidar com uma carga de trabalho esperada.
 2. Implementar testes de usabilidade para garantir uma experiência de usuário intuitiva e eficiente.
@@ -112,7 +109,7 @@ Com base nos resultados dos testes de qualidade, os próximos passos para o Sist
 
 ## Colaboração e Comunicação
 
-Durante a minha experiência como gerente do projeto de desenvolvimento do sistema de gestão de café para corretora, aprendi a importância de uma comunicação eficiente com a equipe. Realizamos reuniões regulares para discutir o andamento do projeto, compartilhar conhecimentos e alinhar as expectativas.
+Durante a minha experiência como gerente do projeto de desenvolvimento do sistema de gestão, aprendi a importância de uma comunicação eficiente com a equipe. Realizamos reuniões regulares para discutir o andamento do projeto, compartilhar conhecimentos e alinhar as expectativas.
 
 A colaboração foi um fator chave para o sucesso do projeto. Estabelecemos um ambiente de trabalho colaborativo, onde todos os membros da equipe se sentiam à vontade para compartilhar ideias, propor soluções e trabalhar juntos em direção aos mesmos objetivos. Essa colaboração nos permitiu aproveitar a experiência e conhecimento de cada membro da equipe, resultando em um sistema de alta qualidade.
 
